@@ -20,10 +20,10 @@ policy "check-ec2-environment-tag" {
 }
 
 ##
-policy "require-most-recent-AMI-version" {
-  source = "./require-most-recent-AMI-version.sentinel"
-  enforcement_level = "advisory"
-}
+#policy "require-most-recent-AMI-version" {
+#  source = "./require-most-recent-AMI-version.sentinel"
+#  enforcement_level = "advisory"
+#}
 
 ##
 policy "restrict-current-ec2-instance-type" {
